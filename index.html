@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+            button{
+                color: blue;
+                width: 30%;
+                height: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="botao"> Click em mim Daniela </button>
+        <div id='di' style="display: none;">
+            <h1>Daniela você é o amor da minha vida eu amo você demais</h1>
+        </div> 
+    </body>
+
+    <script >
+        var a = document.getElementById('botao');
+        var di = document.getElementById('di');
+        a.onclick = function(){
+           di.style.display = 'block';
+           a.style.display = 'none';
+        }
+    </script>
+
+</html>
